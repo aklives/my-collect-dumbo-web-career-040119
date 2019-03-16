@@ -7,10 +7,3 @@ def my_collect(array)
 array
 end
 
-my_collect(array) do |lang|
-  lang.upcase
-end
-
-my_collect(array) do |name|
-  name.split(" ").first
-end
