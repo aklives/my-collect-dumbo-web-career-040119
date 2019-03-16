@@ -5,9 +5,5 @@ def my_collect(array)
     new_arr << yield(array[i])
     i += 1
   end
-  for element in array
-    new_arr << yield element
-  end
-
   new_arr
 end
